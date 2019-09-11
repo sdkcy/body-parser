@@ -1,14 +1,20 @@
 {
   "name": "@sdk_cy/body-parser",
   "version": "1.0.0",
-  "description": "parse body",
+  "description": "A simple parser middleware to parse JSON or urlencoded body data for express or @sdk_cy/tiny-server",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha ./*.test.js"
+  },
   "keywords": [
     "body parser",
     "urlencoded",
     "json",
     "middleware",
-    "express.js"
+    "express",
+    "@sdk_cy/tiny-server",
+    "body",
+    "parser"
   ],
   "author": {
     "name": "Sıdıka Çay",
@@ -18,5 +24,11 @@
     "type": "git",
     "url": "https://github.com/sdkcy/body-parser.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@sdk_cy/tiny-server": "^1.2.1",
+    "axios": "^0.19.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
 }
