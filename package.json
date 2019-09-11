@@ -1,0 +1,22 @@
+{
+  "name": "@sdk_cy/body-parser",
+  "version": "1.0.0",
+  "description": "parse body",
+  "main": "index.js",
+  "keywords": [
+    "body parser",
+    "urlencoded",
+    "json",
+    "middleware",
+    "express.js"
+  ],
+  "author": {
+    "name": "Sıdıka Çay",
+    "email": "sidikacay@yahoo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdkcy/body-parser.git"
+  },
+  "license": "MIT"
+}
